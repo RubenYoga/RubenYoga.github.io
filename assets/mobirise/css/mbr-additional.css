@@ -897,6 +897,7 @@ h6,
 #extHeader4-t .intro-box h4 {
   font-size: 30px;
 }
+
 #msg-box8-m .mbr-section-title,
 #msg-box8-m p {
   color: #fff;
@@ -980,12 +981,14 @@ h6,
 #header2-p .mbr-section-title {
   color: #ec9c1e;
 }
-#extForm1-r SPAN {
-  font-size: 20px;
+#extHeader4-w H2 {
+  color: #ffffff;
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
 }
-#extForm1-r P {
-  font-size: 20px;
-}
-#extForm1-r .intro-box h4 {
+#extHeader4-w P {
   font-size: 22px;
+}
+#extHeader4-w .intro-box h4 {
+  font-size: 30px;
 }
