@@ -834,13 +834,6 @@ h6,
 #menu-9 .btn {
   font-size: 15px;
 }
-#header3-i .mbr-section-title,
-#header3-i .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-i H3 {
-  color: #ec9c1e;
-}
 #extFeatures3-a .mbr-iconfont-features4 {
   color: #c0a375 !important;
 }
@@ -856,6 +849,28 @@ h6,
 }
 #header3-s SPAN {
   font-size: 22px;
+}
+#header3-s H3 {
+  color: #ec9c1e;
+}
+#header3-10 .mbr-section-title,
+#header3-10 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-10 SPAN {
+  font-size: 22px;
+}
+#header3-10 H3 {
+  color: #ec9c1e;
+}
+#extFeatures12-z .card-number {
+  color: #c0a375;
+}
+#extFeatures12-z .mbr-iconfont-features4 {
+  color: undefined !important;
+}
+#extFeatures12-z .wraper {
+  border-color: undefined !important;
 }
 #header3-v .mbr-section-title,
 #header3-v .mbr-section-subtitle {
@@ -904,6 +919,7 @@ h6,
 }
 #msg-box8-m .lead {
   color: #ffffff;
+  font-size: 19px;
 }
 #menu-h .hide-buttons .nav-btn {
   display: none !important;
@@ -980,6 +996,9 @@ h6,
 }
 #header2-p .mbr-section-title {
   color: #ec9c1e;
+}
+#extTestimonials3-j .mbr-section-title {
+  color: #000000;
 }
 #extHeader4-w H2 {
   color: #ffffff;

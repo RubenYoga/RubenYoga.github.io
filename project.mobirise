@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 33,
+    "uniqCompNum": 37,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -481,6 +481,19 @@
       },
       "components": [
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-y",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><br></p><p><br></p>"
+        },
+        {
           "_styles": {
             ".hide-buttons .nav-btn": {
               "display": "none !important"
@@ -568,29 +581,6 @@
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Ruben.Yoga</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about_me.html\">ABOUT ME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"my-offer.html\">MY OFFER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"my-offer.html#extHeader4-t\">CONTACT ME</a></li>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            "H3": {
-              "color": "#ec9c1e"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-i",
-          "_params": {
-            "paddingTop": "7",
-            "paddingBottom": "4",
-            "bgColor": "#fff",
-            "showMeta": true
-          },
-          "title": "MY OFFER",
-          "meta": ""
         },
         {
           "alias": "mobirise3-blocks/components",
@@ -681,7 +671,7 @@
             }
           },
           "title3": "Home Classes",
-          "subtitle3": "Yoga in the comfort of your home",
+          "subtitle3": "Yoga in the comfort of your own house",
           "caption3": "Do you feel uncomfortable doing yoga in big classes? Are you tired of comparing yourself to others? Then let me come to your home and give you personal, warm, and professional one-on-one yoga guidance! For your integrity, my assistant and wife Linn will come along to the house-visits for women.",
           "button3": "<a data-app-btn=\"true\" href=\"my-offer.html#extHeader4-t\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">BOOK NOW</a>",
           "media4": {
@@ -707,6 +697,9 @@
             },
             "SPAN": {
               "font-size": "22px"
+            },
+            "H3": {
+              "color": "#ec9c1e"
             }
           },
           "_tags": [
@@ -720,8 +713,181 @@
             "bgColor": "#fff",
             "showMeta": true
           },
-          "title": "Included in all classes:",
-          "meta": "<span style=\"font-style: normal;\">Yoga mats, blankets, cushions, professional instruction - and tea after the class!</span>"
+          "title": "ALWAYS&nbsp;INCLUDED:",
+          "meta": "<span style=\"font-style: normal;\"><br>Yoga mats, blankets, cushions, professional instruction - and tea to round off the class =)</span>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "SPAN": {
+              "font-size": "22px"
+            },
+            "H3": {
+              "color": "#ec9c1e"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-10",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "WHY YOGA?",
+          "meta": "<span style=\"font-style: normal;\">3 REASONS FOR ADDING A YOGA PRACTICE TO YOUR LIFE</span>"
+        },
+        {
+          "_styles": {
+            ".card-number": {
+              "color": "@primaryColor"
+            },
+            ".mbr-iconfont-features4": {
+              "color": "undefined !important"
+            },
+            ".wraper": {
+              "border-color": "undefined !important"
+            }
+          },
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFeatures12",
+          "_anchor": "extFeatures12-z",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 2,
+            "numbersColor": "@primaryColor",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFeatures4_bg.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.6,
+            "overlayColor": "#222",
+            "columns": 3,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/-dsc0087-1400x1000.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "number1": "01",
+          "title1": "Physical Wellbeing&nbsp;",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Many people know that yoga is correlated to flexibility and stretching, and this is of course true; by the help of yoga you will stretch muscles in a soothing way, free the joints, and release bodily tensions. However yoga exercises will also make your body strong and agile, and increase your stamina. There are also many internal benefits of having the internal organs twisted and squeezed, such as; detoxification of the whole bodily system, balancing of hormones, increased power in the digestive system, regulation of the respiratory system, speed-up of lymphatic system, and more.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/img-0048-centered-1400x1417.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "number2": "02",
+          "title2": "Mental Health",
+          "subtitle2": "One of Bootstrap 4s big points",
+          "caption2": "Yoga is not just physical exercises, but also helps us to take care of our mental health. A big part of yoga is the breathing, also called pranayama. These exercises help you calm the mind, increase focus, and decrease agitation of the mind. With reduced stress levels, you will find that you can live a calmer and more harmonious life. ",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/-dsc3282-smaller-1400x1007.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "number3": "03",
+          "title3": "You're Smiling Inside",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "There is also a deeper side to yoga that also addresses the wellbeing of our hearts. Asanas (exercises) and pranayama (breathing techniques) gives us a sense of deeper self-awareness and prepares for meditation by relaxing the body and mind. In mantra meditation one focuses on transcedental sound vibrations that lift us away from all anxiety and stress. You may also experience how positive qualities naturally develop, such as compassion, tolerance, and love for others. By meditation you will not just smile in your face, but also in your heart!<br>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFeatures12_2.jpg"
+            },
+            "video": {
+              "active": false,
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "number4": "04",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_styles": {
@@ -791,7 +957,7 @@
             "formStyle": "light",
             "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x8424.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x8425.jpg",
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "bgVideo": {
@@ -882,7 +1048,8 @@
               "color": "#fff"
             },
             ".lead": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "19px"
             }
           },
           "_tags": [
@@ -895,7 +1062,7 @@
             "paddingBottom": 3,
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x3012.jpg",
             "bgColor": "#F2F2F2",
             "bgColorRadio": false,
             "bgVideo": {
@@ -1053,7 +1220,7 @@
           },
           "title1": "HOLISTIC YOGA KNOWLEDGE",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "I started practicing yoga on a regular basis in 2010, and began teaching it for SiT in Trondheim in 2014. The following year I established my own yoga studio in Bogotá, Colombia. Since then I have attended yoga retreats all over the world and obtained knowledge within many fields of yoga, such as; Ashtanga, Yin, Gyana, Bhakti, and more.&nbsp;In early 2016 I started giving classes for the volunteer organization Trondheim Meditasjon &amp; Yoga. ",
+          "caption1": "I started practicing yoga on a regular basis in 2010, and began teaching it for SiT in Trondheim in 2014. The following year I established my own yoga studio in Bogotá, Colombia. Since then I have attended yoga retreats all over the world and obtained knowledge within many fields of yoga, such as; Ashtanga, Yin, Gyana, Bhakti, and more. Since 2016 I have been giving classes for Trondheim Meditasjon &amp; Yoga. ",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "iconFont": {
@@ -1069,7 +1236,7 @@
           },
           "title2": "LEADERSHIP TRAINING",
           "subtitle2": "One of Bootstrap 4s big points",
-          "caption2": "Already as a youth I was working as an instructor of ju-jutsu, and I later took the responsability as a vice regional leader of a political party. I got to develop my practical leadership skills further in my 11-month period as as a mountain ranger in the Swedish military. During my university studies I was working as a teacher for sessions with cooperational learning, and as a supervisor for the other teachers. During that time I also took a full-time 6-month course in pedagogical leadership and started my own guiding company for extreme outdoor adventures in the Scandinavian mountains.",
+          "caption2": "Already as a youth I was working as an instructor for various sports, and I later took the responsability as a vice regional leader of a political party. I got to develop my practical leadership skills further in my 11-month period as as a mountain ranger in the Swedish military. During my university studies I was working as a teacher for sessions with cooperational learning, and as a supervisor for the other teachers. During that time I also took a full-time 6-month course in pedagogical leadership and started my own guiding company for extreme outdoor adventures in the Scandinavian mountains.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "iconFont": {
@@ -1246,7 +1413,12 @@
           },
           "_anchor": "extTestimonials3-j",
           "title": "SAID ABOUT<br>MY CLASSES",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000000"
+            }
+          }
         },
         {
           "alias": "mobirise3-blocks/components",
@@ -1275,7 +1447,7 @@
             "formStyle": "light",
             "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x8424.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x8425.jpg",
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "bgVideo": {
