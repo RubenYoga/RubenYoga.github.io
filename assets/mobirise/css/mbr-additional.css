@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
-@import url(https://fonts.googleapis.com/css?family=Indie+Flower:400);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i);
 
 
 
@@ -45,11 +45,11 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Indie Flower', handwriting;
-  font-size: 1.5rem;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1.8rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.4rem;
+  font-size: 2.88rem;
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
@@ -80,9 +80,9 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.2rem;
-    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.44rem;
+    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -2517,7 +2517,7 @@ body {
 .cid-qHPunS5AmM {
   padding-top: 135px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/mbr-1337x1080.jpg");
+  background-image: url("../../../assets/images/mbr-1-1920x1079.jpg");
 }
 .cid-qHPunS5AmM .mbr-section-subtitle {
   color: #767676;
@@ -3320,23 +3320,6 @@ body {
     font-size: .85rem;
   }
 }
-.cid-qHQzwhGSpP {
-  padding-top: 60px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-qHQzwhGSpP .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-qHPyIgKhGa {
-  padding-top: 0px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-qHPyIgKhGa .mbr-text,
-.cid-qHPyIgKhGa blockquote {
-  color: #767676;
-}
 .cid-qHQ1Po6Vvx {
   padding-top: 60px;
   padding-bottom: 0px;
@@ -3346,7 +3329,7 @@ body {
   color: #767676;
 }
 .cid-qHQ09LETSo {
-  padding-top: 60px;
+  padding-top: 15px;
   padding-bottom: 60px;
   background-color: #ffffff;
 }
@@ -3377,6 +3360,23 @@ body {
   height: 25px;
   border-radius: 50%;
   content: '✓';
+}
+.cid-qHQzwhGSpP {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-qHQzwhGSpP .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-qHPyIgKhGa {
+  padding-top: 0px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-qHPyIgKhGa .mbr-text,
+.cid-qHPyIgKhGa blockquote {
+  color: #767676;
 }
 .cid-qHQzJmFiRP {
   padding-top: 90px;
